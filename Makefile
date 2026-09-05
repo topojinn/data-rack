@@ -3,3 +3,6 @@ CODE = main.py
 
 run:
   $(PYTHON) $(CODE)
+
+install:
+  pip install customtkinter
